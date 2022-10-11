@@ -1,0 +1,29 @@
+html {
+  font-family: Calibri, "Times New Roman", sans-serif;
+}
+
+.image-recipe {
+  height: 700px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  width: 700px;
+}
+.recipe-title {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
