@@ -1,4 +1,4 @@
-@media (min-width: 968px) {
+@media (min-width: 1100px) {
   .container,
   .index-container {
     display: flex;
@@ -8,9 +8,7 @@
   }
   .index-container {
     text-align: center;
-  }
-
-  .index-container {
+    overflow-wrap: break-word;
     display: flex;
     flex-direction: row;
   }
@@ -54,6 +52,6 @@ html {
 
 .index-image {
   padding: 10px;
-  height: 300px;
+  height: 700px;
   width: auto;
 }
